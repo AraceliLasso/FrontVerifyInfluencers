@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Formulario from "./components/Formulario"
 
 function App() {
 
@@ -9,7 +6,11 @@ function App() {
     <div className="background-container">
     <div className="content">
       <h2>Envíale la carta a Papá Noel</h2>
-      <p class="mensaje-navidad">¡Feliz Navidad!</p>
+      <p className="mensaje-navidad">¡Feliz Navidad!</p>
+    </div>
+
+    <div>
+      <Formulario /> {/* Aquí estamos usando el componente Formulario */}
     </div>
     
     {/* Crédito al autor del patrón */}
