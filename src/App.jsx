@@ -9,7 +9,7 @@ function App() {
       <h2>Envíale la carta a Papá Noel</h2>
       <p className="mensaje-navidad">¡Feliz Navidad!</p>
     </div>
-<br/>
+
     <div>
       <Formulario /> {/* Aquí estamos usando el componente Formulario */}
     </div>
