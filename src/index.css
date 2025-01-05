@@ -38,24 +38,19 @@ body {
 }
 
 .content {
-    color: rgb(247, 223, 223); /* Color del texto */
+    color: rgb(209, 205, 205); /* Color del texto */
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     font-family: 'Arial', sans-serif;
-    background-color: rgb(221, 38, 38); /* Color de fondo sólido */
+    background-color: red; /* Color de fondo sólido */
     padding: 10px; /* Relleno alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados (opcional) */
-    
-    position: absolute;
-    top: 50px;  /* Ajusta el valor para moverlo más arriba o más abajo */
-    left: 50%;
-    transform: translateX(-50%); 
+    border-radius: 8px; /* Bordes redondeados (opcional) */
   }
   
 
 
-.credit {
+/* .credit {
     position: absolute;
     bottom: 10px;
     font-size: 14px;
@@ -66,9 +61,9 @@ body {
 .credit a {
     color: #FFD700;
     /* Color del enlace */
-    text-decoration: none;
-}
+    /* text-decoration: none;
+} */
 
-.credit a:hover {
+/* .credit a:hover {
     text-decoration: underline;
-}
+} */ 

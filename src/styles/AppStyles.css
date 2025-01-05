@@ -1,0 +1,35 @@
+
+
+.content {
+    color: rgb(241, 222, 222); /* Color del texto */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: red; /* Color de fondo sólido */
+    padding: 10px; /* Relleno alrededor del texto */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+
+/* Estilo del crédito */
+.credit {
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px; /* Separa los créditos del borde inferior */
+    margin-right: auto; /* Alinea a la derecha */
+  }
+  
+  .credit a {
+    color: #FFD700; /* Color del enlace */
+    text-decoration: none;
+  }
+  
+  .credit a:hover {
+    text-decoration: underline;
+  }
