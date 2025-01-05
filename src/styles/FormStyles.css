@@ -4,10 +4,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 label{
     display: block;
 }
-input{
+input, select{
+    width: 100%;
+}
+#deseo{
     width: 100%;
 }
